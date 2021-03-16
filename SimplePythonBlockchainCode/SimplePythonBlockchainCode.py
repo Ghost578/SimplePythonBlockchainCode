@@ -43,7 +43,7 @@ class Blockchain:
             return new_proof
         
         
-blockchain = shaanBlockchain()
+blockchain = Blockchain()
 app = Flask(__name__)
 
 @app.route('/mine_block', methods=['GET'])
